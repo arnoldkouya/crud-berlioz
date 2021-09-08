@@ -1,0 +1,29 @@
+{
+  "@extends": "config.json.dist",
+  "berlioz": {
+    "debug": {
+      "enable": true
+    }
+  },
+  "app": {
+    "websites": {
+      "crud-berlioz": {
+        "slug": "crud-berlioz",
+        "name": "crud-berlioz",
+        "logo": "",
+        "default": true,
+        "hosts": [
+          "crud-berlioz.test"
+        ],
+        "config": {
+          "url": "http://crud-berlioz.test:89/"
+        }
+      }
+    }
+  },
+  "http": {
+    "errors": {
+      "default": "Berlioz\\HttpCore\\Http\\DefaultHttpErrorHandler"
+    }
+  }
+}
