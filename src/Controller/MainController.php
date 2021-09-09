@@ -14,6 +14,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Atlas\Orm\Atlas;
 use Berlioz\Core\Exception\BerliozException;
 use Berlioz\HttpCore\Controller\AbstractController;
 use Psr\Http\Message\ResponseInterface;
@@ -36,6 +37,10 @@ class MainController extends AbstractController
      */
     public function home()
     {
+        /** @var Atlas $atlas */
+        /*$atlas = $this->getService('atlas');
+        $atlas = $this->getService(\Atlas\Orm\Atlas::class);
+        var_dump('dd');die();*/
         return $this->render('home.html.twig');
     }
 }

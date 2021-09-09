@@ -1,5 +1,6 @@
 {
   "controllers": [
-    "App\\Controller\\MainController"
+    "App\\Controller\\MainController",
+    "App\\Controller\\GameController"
   ]
 }
