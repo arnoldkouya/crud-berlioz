@@ -1,9 +1,6 @@
-# Berlioz Skeleton website
+# CRUD Berlioz
 
-It's a skeleton for websites using Berlioz Framework.
-
-For more information, and use of Berlioz Framework, go to website and online documentation :
-https://getberlioz.com
+It's an simple app to build: Create, Read, Update and Delete function.
 
 ## Installation
 
